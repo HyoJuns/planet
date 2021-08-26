@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
 *
 {
     margin : 0;
@@ -98,9 +98,10 @@ body
 
     transform: translate(-50%, -50%);
     user-select: none;
-    background: linear-gradient(to right, #fceabb, #f8b500);
-    text-shadow: 2px 2px 120px #fff;
-    
+    background: linear-gradient(75deg, #4b6cb7, #182848);
+    text-shadow: 2rem 2rem 1px rgba(255, 255, 255, 1), 4rem 4rem 1px hsla(0,100%,0%,.1);
+    text-transform: uppercase;
+    letter-spacing: 20px;
     
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -154,7 +155,8 @@ ul
     list-style-type: none;
     cursor: pointer;
     user-select: none;
-    
+    text-transform: uppercase;
+    letter-spacing: 2px;
     transition: color .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .select
@@ -168,7 +170,7 @@ ul
     min-width: 500px;
 
     position: absolute;
-
+    font-family: 'Noto Sans KR', sans-serif;
     bottom : 2rem;
     left : 50%;
 
@@ -185,9 +187,10 @@ ul
 
 th
 {
-    background-color: #222;
+    background-color: rgba(97, 97, 97, 0.322);
     font-size: 2.4rem;
     letter-spacing: 2px;
+    padding: .5em;
 }
 
 td
@@ -196,4 +199,5 @@ td
     padding : 1em;
     font-size: 1.6rem;
     letter-spacing: 2px;
+    font-weight: 400;
 }
