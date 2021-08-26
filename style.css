@@ -33,6 +33,7 @@ body
     position: absolute;
     left : 0;
     top : 0;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -41,33 +42,69 @@ body
 }
 .bg-1
 {
-    background-image: url('./images/_blue_bg.jpg');
-    z-index: 3;
+
+    z-index: 9;
     
 }
 .bg-2
 {
-    background-image: url('./images/_red_bg.jpg');
-    z-index: 2;
+
+    z-index: 8;
 }
 .bg-3
 {
-    background-image: url('./images/_volet_bg.jpg');
+
+    z-index: 7;
+}
+.bg-4
+{
+    
+    z-index: 6;
+}
+.bg-5
+{
+    
+    z-index: 5;
+}
+.bg-6
+{
+    
+    z-index: 4;
+}
+.bg-7
+{
+    
+    z-index: 3;
+}
+.bg-8
+{
+    
+    z-index: 2;
+}
+.bg-9
+{
+    
     z-index: 1;
 }
 .section-heading
 {
     font-size: 10vmax;
-    color : white;
+    color : #fff;
     position: absolute;
-    text-shadow: 2px 2px 4px #fff, 0 0 35px #222;
+
 
     left : 50%;
     top : 30%;
 
     transform: translate(-50%, -50%);
     user-select: none;
-
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    text-shadow: 2px 2px 120px #fff;
+    
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .section-desc
 {
@@ -104,6 +141,7 @@ body
     height: 100%;
     transition: clip-path .5s ease;
     clip-path: circle(100% at 50% 50%);
+    object-fit: cover;
 }
 .hide
 {
