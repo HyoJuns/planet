@@ -187,6 +187,7 @@ th
 {
     background-color: #222;
     font-size: 2.4rem;
+    letter-spacing: 2px;
 }
 
 td
@@ -194,4 +195,5 @@ td
     background-color: rgba(34, 34, 34, 0.5);
     padding : 1em;
     font-size: 1.6rem;
+    letter-spacing: 2px;
 }
