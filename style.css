@@ -98,8 +98,8 @@ body
 
     transform: translate(-50%, -50%);
     user-select: none;
-    background: linear-gradient(75deg, #4b6cb7, #182848);
-    text-shadow: 2rem 2rem 1px rgba(255, 255, 255, 1), 4rem 4rem 1px hsla(0,100%,0%,.1);
+    background: linear-gradient(75deg, #2b5876, #4e4376);
+    text-shadow: 2rem 2rem 1px #f5f5f5, 4rem 4rem 1px hsla(0,100%,0%,.1);
     text-transform: uppercase;
     letter-spacing: 20px;
     
