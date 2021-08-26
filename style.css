@@ -94,7 +94,7 @@ body
 
 
     left : 50%;
-    top : 30%;
+    top : 40%;
 
     transform: translate(-50%, -50%);
     user-select: none;
@@ -106,22 +106,7 @@ body
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.section-desc
-{
-    font-size: 2vmax;
-    color : white;
 
-    position: absolute;
-    text-shadow: 1px 1px 2px #fff, 0 0 10px #222;
-
-    left : 50%;
-    top : 70%;
-
-    transform: translate(-50%, -50%);
-    user-select: none;
-
-
-}
 .section__wrap
 {
     width: 100%;
@@ -175,4 +160,38 @@ ul
 .select
 {
     color : rgb(202, 245, 86);
+}
+.section-table
+{
+    width: 80%;
+
+    min-width: 500px;
+
+    position: absolute;
+
+    bottom : 2rem;
+    left : 50%;
+
+    transform: translate(-50%, -50%);
+
+    /* outline: 1px solid tomato; */
+
+
+    color : white;
+
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th
+{
+    background-color: #222;
+    font-size: 2.4rem;
+}
+
+td
+{
+    background-color: rgba(34, 34, 34, 0.5);
+    padding : 1em;
+    font-size: 1.6rem;
 }
